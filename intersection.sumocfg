@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration>
+
+    <input>
+        <net-file value="intersection.net.xml"/>
+        <!-- <route-files value="live.rou.xml"/> -->
+    </input>
+
+    <time>
+        <begin value="0"/>
+    </time>
+
+    <report>
+        <duration-log.statistics value="true"/>
+        <error-log value="error.log.xml"/>
+        <verbose value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+    <output>
+        <tripinfo-output value="adaptive/tripinfo.xml"/>
+        <tripinfo-output.write-unfinished value="true"/>
+   </output>
+    <time-to-teleport value="-1"/>
+</configuration>
